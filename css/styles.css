@@ -997,6 +997,7 @@ ul.beptbullets li {
 ul.beptbullets li::before {
   left: 50%;
   top: -20px;
+  transform: translate(-50%, -6px);
 }
 p.decotext{
   padding: 0;
@@ -1028,6 +1029,52 @@ img.bannerimg {
 form.signupform {
   max-width: 90%;
   margin: auto;
+}
+
+}
+@media(max-width:500px){
+/* new */
+.heading2 span{
+  line-height: 30px;
+}
+p.ourstorytext {
+  max-width: 295px;
+  text-align: justify;
+  padding: 0;
+}
+.heading3 {
+  font-size: 33px;
+}
+.heading2 span {
+  font-size: 20px;
+}
+.howbox img {
+  min-height: auto;
+  height: 115px;
+}
+p.decotext {
+  padding: 0;
+  text-align: justify;
+  max-width: 344px;
+}
+.decoimage2 {
+  padding: 0 20px;
+}
+img.gearimg {
+  height: 95px;
+}
+p.signtext {
+  text-align: justify;
+  max-width: 325px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+form.signupform {
+  max-width: 325px;
+  margin: auto;
+}
+banner {
+  min-height: 75vh;
 }
 }
 /* responsive ends */
