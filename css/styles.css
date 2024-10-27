@@ -940,6 +940,7 @@ p.ourstorytext {
 .howboxs {
   flex-wrap: wrap;
   gap: 30px;
+  margin-top: 35px;
 }
 ul.beptbullets {
   column-count: 1;
@@ -986,7 +987,7 @@ footer .container {
   flex-wrap: wrap;
 }
 h3.heading2 {
-  margin: 15px 0px 15px;
+  margin: 30px 0px 30px;
 }
 ul.beptbullets li {
   text-align: center;
@@ -1025,6 +1026,7 @@ footer .container {
 }
 img.bannerimg {
   max-width: 80%;
+  padding-top: 25%;
 }
 form.signupform {
   max-width: 90%;
@@ -1037,8 +1039,21 @@ img.frameborder {
   width: 80%;
   height: 124%;
 }
-
+.aboutcontent p {
+  padding: 0 20px;
 }
+a.aboutbtn {
+  max-width: max-content;
+}
+h3.heading2 {
+  margin: 30px 0px 30px;
+}
+.becomepartner .container {
+  padding: 0 20px;
+}
+}
+
+
 @media(max-width:500px){
 /* new */
 .heading2 span{
@@ -1046,14 +1061,16 @@ img.frameborder {
 }
 p.ourstorytext {
   max-width: 295px;
-  text-align: justify;
-  padding: 0;
+  text-align: center;
+        padding: 0;
+        font-size: 15px;
+        margin-bottom: 20px;
 }
 .heading3 {
   font-size: 33px;
 }
 .heading2 span {
-  font-size: 20px;
+  font-size: 18px;
 }
 .howbox img {
   min-height: auto;
@@ -1061,7 +1078,7 @@ p.ourstorytext {
 }
 p.decotext {
   padding: 0;
-  text-align: justify;
+  text-align: center;
   max-width: 344px;
 }
 .decoimage2 {
@@ -1071,7 +1088,7 @@ img.gearimg {
   height: 95px;
 }
 p.signtext {
-  text-align: justify;
+  text-align: center;
   max-width: 325px;
   margin: auto;
   margin-bottom: 30px;
@@ -1082,7 +1099,11 @@ form.signupform {
 }
 
 .banner {
-  min-height: 75vh;
+  min-height: calc(100dvh - 78px);
+}
+
+img.decoinfoimg {
+  width: 90%;
 }
 }
 /* responsive ends */
